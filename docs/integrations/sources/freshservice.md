@@ -19,6 +19,7 @@ Several output streams are available from this source:
 * [Vendors](https://api.freshservice.com/v2/#vendors)
 * [Assets](https://api.freshservice.com/v2/#assets)
 * [PurchaseOrders](https://api.freshservice.com/v2/#purchase-order)
+* [SatisfactionSurveyResponses](https://api.freshservice.com/#ticket_csat_attributes) (Incremental)
 * [Software](https://api.freshservice.com/v2/#software)
 
 If there are more endpoints you'd like Airbyte to support, please [create an issue.](https://github.com/airbytehq/airbyte/issues/new/choose)
@@ -53,5 +54,6 @@ Please read [How to find your API key](https://api.freshservice.com/#authenticat
 
 | Version | Date | Pull Request | Subject |
 | :--- | :--- | :--- | :--- |
+| 0.1.3 | 2023-03-10 | [23948](https://github.com/airbytehq/airbyte/pull/23948) | Add stream SatisfactionSurveyResponses |
 | 0.1.1 | 2021-12-28 | [9143](https://github.com/airbytehq/airbyte/pull/9143) | Update titles and descriptions |
 | 0.1.0 | 2021-10-29 | [6967](https://github.com/airbytehq/airbyte/pull/6967) | 🎉 New Source: Freshservice |
